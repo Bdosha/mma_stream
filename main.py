@@ -4,7 +4,7 @@ from aiogram.types import (CallbackQuery, InlineKeyboardButton,
                            InlineKeyboardMarkup, Message)
 import codecs
 
-BOT_TOKEN: str = '5578313172:AAHM5DYy6vNQJGdELh3mgYoc2L_UUPYVrDM'
+BOT_TOKEN: str = 'BOT_TOKEN'
 f = codecs.open("text.txt", "r", "utf-8")
 main_text = f.read() 
 f.close()
